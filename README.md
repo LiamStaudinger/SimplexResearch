@@ -51,7 +51,7 @@ Use `.toString()` to get `'5/2'` or `.toNumber()` to get `2.5`.
 
 ## Running
 
-In Node, put something like the example aboive in a `.js` file in this folder (so `package.json` applies) and run it with `node`:
+In Node, put something like the example above in a `.js` file in this folder (so `package.json` applies) and run it with `node`:
 
 ```js
 import { simplex } from './simplex.js';
