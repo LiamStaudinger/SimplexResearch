@@ -157,7 +157,7 @@ def simplex(toMax, constraints):
 
     values = read_solution(slackToMax, slackConstraints, len(toMax))
     p = slackToMax[-1]
-    print("p =", p, "at", [int(v) for v in values])
+    print("p =", p, "at", "[" + ", ".join(str(v) for v in values) + "]")
     return p, values
 
 
